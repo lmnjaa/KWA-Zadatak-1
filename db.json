@@ -7,16 +7,16 @@
       "id": 0
     },
     {
-      "id": 1,
       "indeks": "321311/2017",
-      "ime": "Dragan",
-      "prezime": "Krkoljac"
+      "ime": "DraganTestdasdasda",
+      "prezime": "dada",
+      "id": 1
     },
     {
-      "id": 2,
       "indeks": "231231/2017",
-      "ime": "Osman",
-      "prezime": "Mrmoljac"
+      "ime": "Test",
+      "prezime": "dadadada",
+      "id": 2
     }
   ],
   "ispiti": [

@@ -22,8 +22,8 @@ export class TabelaStudenataDetailComponent implements OnInit {
   change() {
     var forma = this.fb.group({
       indeks: [this.chosenStudent.indeks],
-      ime: [this.novoIme],
-      prezime: [this.novoPrezime]
+      ime: [this.chosenStudent.ime],
+      prezime: [this.chosenStudent.prezime]
     })
     var raw = forma.getRawValue();
 
