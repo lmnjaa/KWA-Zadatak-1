@@ -12,6 +12,7 @@ export class TabelaStudenataDetailComponent implements OnInit {
 
   // public novoIme: string
   // public novoPrezime: string
+  public changed: boolean = false;
 
   constructor(private fb: FormBuilder, private _service : StudentServiceService) {}
 
@@ -31,5 +32,6 @@ export class TabelaStudenataDetailComponent implements OnInit {
       response => console.log("Response " + response),
       error => console.log("Error" + error)
     )
+    this.changed = true;
   }
 }

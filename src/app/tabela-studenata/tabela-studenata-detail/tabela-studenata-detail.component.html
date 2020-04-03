@@ -28,4 +28,7 @@
     />
   </div>
   <button class="btn btn-primary" type="submit" (click)="change()">Save changes</button>
+  <div *ngIf="changed" class="alert alert-success" role="alert">
+    The changes are saved !
+  </div>
 </div>
