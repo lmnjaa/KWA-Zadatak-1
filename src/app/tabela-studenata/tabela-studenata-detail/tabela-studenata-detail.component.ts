@@ -10,8 +10,8 @@ import { StudentServiceService } from 'src/app/student-service.service';
 export class TabelaStudenataDetailComponent implements OnInit {
   @Input() chosenStudent;
 
-  public novoIme: string
-  public novoPrezime: string
+  // public novoIme: string
+  // public novoPrezime: string
 
   constructor(private fb: FormBuilder, private _service : StudentServiceService) {}
 
