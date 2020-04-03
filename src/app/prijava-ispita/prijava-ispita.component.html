@@ -2,7 +2,7 @@
 <h3>Prijava ispita</h3>
 <form (submit)="prijavaIspita()">
   <div class="container">
-    <div class="form-group">
+    <div>
       <select (change)="selectChangeHandler($event)">
         <option
           *ngFor="let exam of exams"

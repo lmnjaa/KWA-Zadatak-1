@@ -51,16 +51,6 @@
       "nazivPredmeta": "Modelovanje",
       "sifraPredmeta": "312",
       "datumIspita": ""
-    },
-    {
-      "id": 1,
-      "ime": "Osman",
-      "nazivPredmeta": "Modelovanje"
-    },
-    {
-      "id": 2,
-      "ime": "Dragan",
-      "nazivPredmeta": "Testiranje"
     }
   ]
 }
